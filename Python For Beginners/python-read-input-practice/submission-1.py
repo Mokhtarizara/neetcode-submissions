@@ -1,0 +1,15 @@
+def add_two_numbers() -> int:
+    user_input = input() #reading the input 
+    strings = user_input.split(",") # seprated by comma
+    num1 = int(strings[0]) #cause we know exactly two number we directly use index : words[index position]
+    num2 = int(strings[1])
+    return (num1 + num2)
+
+
+
+
+# do not modify below this line
+print(add_two_numbers())
+print(add_two_numbers())
+print(add_two_numbers())
+print(add_two_numbers())
